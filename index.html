@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--========== FAVICON ==========-->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!--========== BOX ICONS ==========-->
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+
+    <!--========== CSS ==========-->
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/scss/styles.min.css" />
+
+    <title>Keysi-Tutor. Уроки английского языка</title>
+  </head>
+  <body>
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+      <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+    </a>
+
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav__logo">Keysi Tutor</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#home" class="nav__link active-link">Главная</a></li>
+            <li class="nav__item"><a href="#about" class="nav__link">Об обучении</a></li>
+            <li class="nav__item"><a href="#video" class="nav__link">Видео</a></li>
+            <li class="nav__item"><a href="#certificates" class="nav__link">Сертификаты</a></li>
+            <li class="nav__item"><a href="#reviews" class="nav__link">Отзывы</a></li>
+
+            <li><i class="bx bx-toggle-left change-theme" id="theme-button"></i></li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--========== HOME ==========-->
+      <section class="home" id="home">
+        <div class="home__container bd-container bd-grid">
+          <div class="home__img">
+            <img src="assets/img/home.png" alt="" />
+          </div>
+
+          <div class="home__data">
+            <h1 class="home__title">Good news everyone</h1>
+            <p class="home__description">
+              Меня зовут Ксения, мне 26 лет. Я закончила филологический факультет ГГТУ с красным
+              <a href="assets/img/diplom.jpg" class="button-link">дипломом</a>, была на стажировке в Южной Корее, где
+              занимала должность ассистента преподавателя
+              <a href="assets/img/jungwon1.jpg" class="button-link">Jungwon University</a>. В 2017 году я сдала
+              <a href="assets/img/PTE_page-0001.jpg" class="button-link">PTE</a>, а в 2020
+              <a
+                href="assets/img/ksenija-chistjakova-certificate-505982_2020-09-24_20-47-42_page-0001.jpg"
+                class="button-link"
+                >CAE С1</a
+              >. Люблю преподавать, особенно меня занимают уроки со взрослыми людьми, студентами и учениками старших
+              классов школы, которые осознанно хотят улучшить свой уровень английского и подготовиться к важным
+              экзаменам.
+            </p>
+            <a href="#send-sect" class="button">Начать обучение</a>
+          </div>
+        </div>
+      </section>
+
+      <!--========== about ==========-->
+      <section class="about section bd-container" id="about">
+        <div class="about__container">
+          <div class="about__data">
+            <h2 class="section-title-center">Об обучении</h2>
+            <div class="about__description">
+              <div class="desc-inners-flex">
+                <strong>Если ты хочешь...</strong>
+                <ul>
+                  <li>понимать носителей</li>
+                  <li>улучшить лексику</li>
+                  <li>познать грамматику</li>
+                  <li>разобраться с временами</li>
+                  <li>заговорить на английском</li>
+                  <li>сдать экзамен (ЕГЭ,ОГЭ)</li>
+                  <li>освоить бизнес-английский</li>
+                </ul>
+              </div>
+              <div class="desc-inners-flex">
+                <strong>Я обещаю:</strong>
+                <ul>
+                  <li>достижение поставленной цели</li>
+                  <li>яркие ёмкие и уроки</li>
+                  <li>индивидуальный подход</li>
+                  <li>избавление от страхов</li>
+                  <li>дружелюбную и непринужденную атмосферу</li>
+                  <li>подобранные под вас материалы</li>
+                </ul>
+              </div>
+            </div>
+            <p style="margin: 15px 0px 15px 0px">На связи для обсуждения трудностей 24/7.</p>
+            <p>
+              <strong>Бузинная палочка</strong> для обучения на все времена: <i>explicit material- practice-revision</i>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section bd-container" id="video">
+        <div class="about__container">
+          <div class="about__data">
+            <h2 class="section-title-center">Видео</h2>
+            <p class="about__description">
+              <iframe
+                width="100%"
+                height="400px"
+                src="https://www.youtube.com/embed/D1TLRT7KNto"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--========== certificates ==========-->
+      <section class="certificates section bd-container" id="certificates">
+        <h2 class="section-title">Сертификаты</h2>
+        <div class="certificates__container bd-grid">
+          <div class="certificates__data">
+            <img
+              src="assets/img/ksenija-chistjakova-certificate-505982_2020-09-24_20-47-42_page-0001.jpg"
+              alt=""
+              class="certificates__img"
+            />
+            <h3 class="certificates__title">CAE C1</h3>
+            <a
+              href="assets/img/ksenija-chistjakova-certificate-505982_2020-09-24_20-47-42_page-0001.jpg"
+              class="button button-link"
+              >Открыть изображение</a
+            >
+          </div>
+
+          <div class="certificates__data">
+            <img src="assets/img/PTE_page-0001.jpg" alt="" class="certificates__img" />
+            <h3 class="certificates__title">CEF B2 (PTE)</h3>
+            <a href="assets/img/PTE_page-0001.jpg" class="button button-link">Открыть изображение</a>
+          </div>
+          <div class="certificates__data">
+            <img src="assets/img/jungwon1.jpg" alt="" class="certificates__img" />
+
+            <div>
+              <h3 class="certificates__title">Jungwon</h3>
+              <a href="assets/img/jungwon1.jpg" class="button button-link">Открыть изображение</a>
+            </div>
+          </div>
+          <div class="certificates__data">
+            <img src="assets/img/jungwon2.jpg" alt="" class="certificates__img" />
+
+            <div>
+              <h3 class="certificates__title">Jungwon 2</h3>
+              <a href="assets/img/jungwon2.jpg" class="button button-link">Открыть изображение</a>
+            </div>
+          </div>
+          <div class="certificates__data">
+            <img src="assets/img/diplom.jpg" alt="" class="certificates__img" />
+            <div>
+              <h3 class="certificates__title">Диплом</h3>
+              <a href="assets/img/diplom.jpg" class="button button-link">Открыть изображение</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--========== review ==========-->
+      <section class="reviews section bd-container" id="reviews">
+        <h2 class="section-title">Отзывы учеников</h2>
+
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="review-item">
+                <img src="assets/img/reviews-photo/2.jpg" />
+                <div>
+                  <h3>Анастасия</h3>
+                  <p>
+                    Занятия проходили интересно: было видно, что Ксения готовилась к занятиям и старалась
+                    заинтересовать, углубить внимание на изучении и то время сколько мы занимались проходило, незаметно,
+                    как мгновение...
+                  </p>
+                  <a href="https://vk.com/topic-209019976_48084063?post=3" class="button button-link">Полный отзыв</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="review-item">
+                <img src="assets/img/reviews-photo/2.jpg" />
+                <div>
+                  <h3>Анастасия</h3>
+                  <p>
+                    Занятия проходили интересно: было видно, что Ксения готовилась к занятиям и старалась
+                    заинтересовать, углубить внимание на изучении и то время сколько мы занимались проходило, незаметно,
+                    как мгновение...
+                  </p>
+                  <a href="https://vk.com/topic-209019976_48084063?post=3" class="button button-link">Полный отзыв</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </section>
+
+      <!--========== SEND ==========-->
+      <section class="send section" id="send-sect">
+        <div class="send__container bd-container bd-grid">
+          <div class="send__content" id="sendSection">
+            <h2 class="section-title-center send__title">Начать обучение</h2>
+            <p class="send__description">
+              С удовольствием свяжусь с вами после вашей заявки. Отправка заявки по форме ниже.
+            </p>
+
+            <div class="send__direction">
+              <form method="POST" action="telegram.php" id="form" class="form__body">
+                <input type="text" placeholder="Ваше имя*" name="user_name" id="name" class="send__input" required />
+                <hr />
+                <input
+                  type="tel"
+                  placeholder="Номер телефона*"
+                  name="user_phone"
+                  class="send__input _req _tel"
+                  id="tel"
+                  required
+                />
+                <button href="#" type="submit" id="buttonSubmit" class="button">Отправить</button>
+              </form>
+            </div>
+          </div>
+
+          <div class="send__img">
+            <img src="assets/img/send.png" alt="" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--========== FOOTER ==========-->
+    <footer class="footer section">
+      <div class="footer__container bd-container bd-grid">
+        <!-- <div class="footer__content">
+          <h3 class="footer__title">
+            <a href="#" class="footer__logo">Keysi-tutor</a>
+          </h3>
+          <p class="footer__description">
+            какой-то текст типа напоследок <br />
+            ага
+          </p>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Столбик</h3>
+          <ul>
+            <li><a href="#" class="footer__link">линк</a></li>
+            <li><a href="#" class="footer__link">линк</a></li>
+            <li><a href="#" class="footer__link">линк</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Столбик</h3>
+          <ul>
+            <li><a href="#" class="footer__link">линк</a></li>
+            <li><a href="#" class="footer__link">линк</a></li>
+            <li><a href="#" class="footer__link">линк</a></li>
+          </ul>
+        </div> -->
+
+        <div class="footer__content">
+          <h3 class="footer__title">Для связи</h3>
+          <a href="https://vk.com/keysi_tutor" class="footer__social"><i class="bx bxl-vk"></i></a>
+          <a href="https://t.me/russiankeysi" class="footer__social"><i class="bx bxl-telegram"></i></a>
+          <a href="https://www.instagram.com/russiankeysi" class="footer__social"
+            ><i class="bx bxl-instagram-alt"></i
+          ></a>
+          <a href="https://www.youtube.com/user/cat68645" class="footer__social"><i class="bx bxl-youtube"></i></a>
+        </div>
+      </div>
+
+      <p class="footer__copy">&#169; 2021 Keysi Tutor. All right reserved</p>
+    </footer>
+
+    <div class="overlay js-overlay-modal"></div>
+    <!--========== SCROLL REVEAL ==========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/imask"></script>
+    <script src="assets/js/main.js"></script>
+
+    <!--========== MAIN JS ==========-->
+  </body>
+</html>
