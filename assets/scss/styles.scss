@@ -336,6 +336,10 @@ img {
   &__img {
     width: 280px;
     justify-self: center;
+    position: relative;
+    img {
+      border-radius: 5px;
+    }
   }
   &__title {
     font-size: 38px;
@@ -445,15 +449,12 @@ img {
   }
   &__title {
     font-size: var(--h3-font-size);
-    margin-bottom: var(--mb-1);
+
     .price {
       position: relative;
       strong {
-        position: absolute;
-        top: 14px;
-        left: 0;
-
-        display: inline-block;
+        display: block;
+        padding: 15px 15px 0px 15px;
         color: var(--first-color);
       }
       s {
