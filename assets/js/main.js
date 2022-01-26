@@ -234,5 +234,17 @@ var swiper = new Swiper(".mySwiper", {
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev"
-  }
+  },
+  breakpoints: {
+    1400: {
+      slidesPerView: 3
+    },
+    768: {
+      slidesPerView: 2
+    },
+    350: {
+      slidesPerView: 1
+    }
+  },
+  pagination: true
 });
