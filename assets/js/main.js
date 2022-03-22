@@ -230,6 +230,7 @@ var swiper = new Swiper(".mySwiper", {
   autoplay: { delay: 7000, disableOnInteraction: false },
   autoHeight: true,
   grabCursor: true,
+
   effect: "slide",
   navigation: {
     nextEl: ".swiper-button-next",
